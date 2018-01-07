@@ -47,10 +47,7 @@ $db = $config->getConnection();
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="https://www.facebook.com/ghazali.samudera"><span class="fa fa-facebook"></span></a></li>
-			<li><a href="https://www.plus.google.com/+TGhazali"><span class="fa fa-google-plus"></span></a></li>
-			<li><a href="https://www.twitter.com/tghazalipidie"><span class="fa fa-twitter"></span></a></li>
-			<li><a href="https://www.youtube.com/?q=Code+Berkas"><span class="fa fa-youtube"></span></a></li>
+			
 			<li><a href="profil.php"><?php echo $_SESSION['nama_lengkap'] ?></a></li>
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></a>

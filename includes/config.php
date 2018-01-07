@@ -4,7 +4,7 @@ class Config{
 	private $host = "localhost";
 	private $db_name = "spk_ahp";
 	private $username = "root";
-	private $password = "pidie";
+	private $password = "";
 	public $conn;
 	
 	public function getConnection(){
